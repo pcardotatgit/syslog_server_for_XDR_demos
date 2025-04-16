@@ -125,7 +125,7 @@ Then install required python modules ( Windows / Mac / Linux )
 
 Edit the **config.py** file which contains initialization variables :
 
-'''
+```
 {
 profil_name=ANY_NAME
 ctr_client_id=xxx
@@ -133,7 +133,7 @@ ctr_client_password=xxx
 host=https://private.intel.eu.amp.cisco.com
 host_for_token=https://visibility.eu.amp.cisco.com
 }
-'''
+```
 
 **ctr_client_id** and **ctr_client_password** are the credentials you got when you created your XDR API client.
 
