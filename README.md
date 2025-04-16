@@ -40,6 +40,8 @@ Download the project into a working directory into your laptop. Unzip the dowloa
 - then type d
 - finally type e
 
+Edit the **./keys/config.py** file
+
 ok now you can run the syslog server by typing
 
 - first  : type a
@@ -119,6 +121,24 @@ Then install required python modules ( Windows / Mac / Linux )
 
     pip install -r requirements.txt
     
-For information requirements.txt mention the **webex_bot** python module which is the key module for this project.
+## Step 6. Initial setup
 
-You can install it separately thanks to the **pip install webex_bot** command.
+Edit the **config.py** file which contains initialization variables :
+
+'''
+{
+profil_name=ANY_NAME
+ctr_client_id=xxx
+ctr_client_password=xxx
+host=https://private.intel.eu.amp.cisco.com
+host_for_token=https://visibility.eu.amp.cisco.com
+}
+'''
+
+**ctr_client_id** and **ctr_client_password** are the credentials you got when you created your XDR API client.
+
+Depending on your region use the correct XDR fqdn !
+
+## Step 7 : run the syslog server
+
+    python syslog_server.py
