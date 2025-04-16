@@ -44,7 +44,7 @@ Download the project into a working directory into your laptop. Unzip the dowloa
 - then type d
 - finally type e
 
-ok now you can run the bot by typing
+ok now you can run the syslog server by typing
 
 - first  : type a
 - second : type b
