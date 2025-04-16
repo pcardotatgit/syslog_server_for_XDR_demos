@@ -24,17 +24,13 @@ The project contains as well a syslog message generator that send Cisco Secure F
 
 ## Prerequisit
 
-You must have created a webex bot first. 
+You must start with a machine that already has python installed. This project was written in python 3.11 version but should work with python 3.10.
 
-Have a look to the instructions here for that [Create a webex bot](https://github.com/pcardotatgit/Create_a_Webex_bot_for_XDR_Alerts)
+An XDR tenant and an API Client created into it ( client_id and client_password )
 
-Open a terminal console.
-
-## very fast install for windows users
+## Very fast install for windows users
 
 For anyone who don't want to waste time.
-
-You must start with a machine that already has python installed. This project was written in python 3.11 version but should work with python 3.10.
 
 Download the project into a working directory into your laptop. Unzip the dowloaded file and open a terminal console into the project root directory. Then
 
