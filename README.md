@@ -142,3 +142,7 @@ Depending on your region use the correct XDR fqdn !
 ## Step 7 : run the syslog server
 
     python syslog_server.py
+    
+## Step 8 - Test the syslog server
+
+Use the [syslog_message_generator](https://github.com/pcardotatgit/syslog_message_generator) to quickly test your setup
