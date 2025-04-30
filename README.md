@@ -69,7 +69,7 @@ And here under for those of you who are familiar with Github.
 
 You must have a git client installed into your laptop. Then you can type the following command from a terminal console opened into your working directory.
 
-    git clone https://github.com/pcardotatgit/webex_for_xdr_part-5_websocket.git
+    git clone https://github.com/pcardotatgit/syslog_server_for_XDR_demos.git
 
 ## Step 3. Go to the code subfolder
 
